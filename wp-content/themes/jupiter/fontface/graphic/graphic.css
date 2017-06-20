@@ -1,0 +1,62 @@
+
+@font-face {
+	font-family: 'Graphic';
+	src: url('graphic-bold-webfont.eot');
+	src: url('graphic-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('graphic-bold-webfont.woff2') format('woff2'),
+		 url('graphic-bold-webfont.woff') format('woff'),
+		 url('graphic-bold-webfont.ttf') format('truetype'),
+		 url('graphic-bold-webfont.svg#graphic-bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphic';
+	src: url('graphic-light-webfont.eot');
+	src: url('graphic-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('graphic-light-webfont.woff2') format('woff2'),
+		 url('graphic-light-webfont.woff') format('woff'),
+		 url('graphic-light-webfont.ttf') format('truetype'),
+		 url('graphic-light-webfont.svg#graphic-light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Graphic';
+	src: url('graphic-medium-webfont.eot');
+	src: url('graphic-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('graphic-medium-webfont.woff2') format('woff2'),
+		 url('graphic-medium-webfont.woff') format('woff'),
+		 url('graphic-medium-webfont.ttf') format('truetype'),
+		 url('graphic-medium-webfont.svg#graphic-medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphic';
+	src: url('graphic-regular-webfont.eot');
+	src: url('graphic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('graphic-regular-webfont.woff2') format('woff2'),
+		 url('graphic-regular-webfont.woff') format('woff'),
+		 url('graphic-regular-webfont.ttf') format('truetype'),
+		 url('graphic-regular-webfont.svg#graphic-regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphic';
+	src: url('graphic-semibold-webfont.eot');
+	src: url('graphic-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('graphic-semibold-webfont.woff2') format('woff2'),
+		 url('graphic-semibold-webfont.woff') format('woff'),
+		 url('graphic-semibold-webfont.ttf') format('truetype'),
+		 url('graphic-semibold-webfont.svg#graphic-semibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+

@@ -1,0 +1,405 @@
+0000.055 (0) Opened log file at time: Mon, 19 Jun 2017 17:17:37 +0000 on http://h2o.2020demo.co.uk
+0000.140 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.3 WP: 4.4.10 PHP: 5.6.30 (cgi-fcgi, Linux vps.2020demo.co.uk 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4000M (used: 167.9M | 223.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.711 (0) Free space on disk containing Updraft's temporary directory: 62112.9 MB
+0000.955 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.026 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.173 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1497887926, seconds_ago=4733)
+0001.242 (0) Set semaphore last lock (fd) time to 2017-06-19 17:17:39
+0001.319 (0) Semaphore lock (fd) complete
+0001.520 (0) Backup run: resumption=0, nonce=f29d5f72aa0f, begun at=1497892657 (2s ago), job type=backup
+0001.660 (0) Scheduling a resumption (1) after 300 seconds (1497892959) in case this run gets aborted
+0001.826 (0) Checking if we have a zip executable available
+0001.900 (0) Testing: /usr/bin/zip
+0002.091 (0) Output: zip warning: binziptest/test.zip not found or empty
+0002.306 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0002.382 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0002.455 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0002.531 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0002.721 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0002.922 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0003.043 (0) Working binary zip found: /usr/bin/zip
+0003.197 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0003.271 (0) Creation of backups of directories: beginning
+0003.422 (0) No backup of plugins: excluded by user's options
+0003.492 (0) No backup of themes: excluded by user's options
+0003.578 (0) No backup of uploads: excluded by user's options
+0003.677 (0) No backup of others: excluded by user's options
+0003.961 (0) Saving backup status to database (elements: 0)
+0004.108 (0) Beginning creation of database dump (WordPress DB)
+0004.251 (0) Testing: /usr/bin/mysqldump
+0004.440 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `h2o_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1199 bytes total)
+0004.663 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0005.262 (0) Table h2o_options: Total expected rows (approximate): 267192
+0005.784 (0) [Warning] Table h2o_options has very many rows (267192) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0023.197 (0) Table h2o_options: binary mysqldump finished (writes: 680) in 17.35 seconds
+0024.281 (0) Table h2o_options: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_options.table.gz - 25345.1 KB)
+0024.668 (0) Table h2o_users: Total expected rows (approximate): 1879
+0025.220 (0) Table h2o_users: Total rows added: 1879 in 0.46 seconds
+0025.363 (0) Table h2o_users: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_users.table.gz - 110.9 KB)
+0025.600 (0) Table h2o_usermeta: Total expected rows (approximate): 51986
+0026.269 (0) Table h2o_usermeta: binary mysqldump finished (writes: 34) in 0.54 seconds
+0026.672 (0) Table h2o_usermeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_usermeta.table.gz - 530.4 KB)
+0027.058 (0) Table h2o_commentmeta: Total expected rows (approximate): 0
+0027.189 (0) Table h2o_commentmeta: Total rows added: 0 in 0.01 seconds
+0027.319 (0) Table h2o_commentmeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_commentmeta.table.gz - 0.4 KB)
+0027.648 (0) Table h2o_comments: Total expected rows (approximate): 0
+0027.805 (0) Table h2o_comments: Total rows added: 0 in 0.01 seconds
+0027.945 (0) Table h2o_comments: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_comments.table.gz - 0.5 KB)
+0028.393 (0) Table h2o_links: Total expected rows (approximate): 0
+0028.528 (0) Table h2o_links: Total rows added: 0 in 0.00 seconds
+0028.674 (0) Table h2o_links: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_links.table.gz - 0.5 KB)
+0029.197 (0) Table h2o_postmeta: Total expected rows (approximate): 7660
+0030.088 (0) Table h2o_postmeta: Total rows added: 7660 in 0.78 seconds
+0030.158 (0) Table h2o_postmeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_postmeta.table.gz - 88.1 KB)
+0030.440 (0) Table h2o_posts: Total expected rows (approximate): 973
+0030.881 (0) Table h2o_posts: Total rows added: 973 in 0.37 seconds
+0030.956 (0) Table h2o_posts: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_posts.table.gz - 219.9 KB)
+0031.171 (0) Table h2o_signups: Total expected rows (approximate): 0
+0031.252 (0) Table h2o_signups: Total rows added: 0 in 0.00 seconds
+0031.331 (0) Table h2o_signups: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_signups.table.gz - 0.4 KB)
+0031.562 (0) Table h2o_term_relationships: Total expected rows (approximate): 63
+0031.639 (0) Table h2o_term_relationships: Total rows added: 63 in 0.00 seconds
+0031.711 (0) Table h2o_term_relationships: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_term_relationships.table.gz - 0.6 KB)
+0031.933 (0) Table h2o_term_taxonomy: Total expected rows (approximate): 21
+0032.004 (0) Table h2o_term_taxonomy: Total rows added: 21 in 0.00 seconds
+0032.073 (0) Table h2o_term_taxonomy: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_term_taxonomy.table.gz - 0.6 KB)
+0032.279 (0) Table h2o_termmeta: Total expected rows (approximate): 2
+0032.352 (0) Table h2o_termmeta: Total rows added: 2 in 0.00 seconds
+0032.423 (0) Table h2o_termmeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_termmeta.table.gz - 0.4 KB)
+0032.640 (0) Table h2o_terms: Total expected rows (approximate): 21
+0032.721 (0) Table h2o_terms: Total rows added: 21 in 0.00 seconds
+0032.806 (0) Table h2o_terms: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_terms.table.gz - 0.7 KB)
+0033.053 (0) Table h2o_blc_filters: Total expected rows (approximate): 0
+0033.129 (0) Table h2o_blc_filters: Total rows added: 0 in 0.00 seconds
+0033.206 (0) Table h2o_blc_filters: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_filters.table.gz - 0.3 KB)
+0033.838 (0) Table h2o_blc_instances: Total expected rows (approximate): 22
+0033.921 (0) Table h2o_blc_instances: Total rows added: 22 in 0.01 seconds
+0034.005 (0) Table h2o_blc_instances: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_instances.table.gz - 1.2 KB)
+0034.229 (0) Table h2o_blc_links: Total expected rows (approximate): 16
+0034.327 (0) Table h2o_blc_links: Total rows added: 16 in 0.01 seconds
+0034.401 (0) Table h2o_blc_links: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_links.table.gz - 3.9 KB)
+0034.621 (0) Table h2o_blc_synch: Total expected rows (approximate): 49
+0034.697 (0) Table h2o_blc_synch: Total rows added: 49 in 0.01 seconds
+0034.780 (0) Table h2o_blc_synch: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_synch.table.gz - 0.8 KB)
+0035.375 (0) Table h2o_cf7dbplugin_st: Total expected rows (approximate): 6081
+0035.629 (0) Table h2o_cf7dbplugin_st: Total rows added: 6083 in 0.18 seconds
+0035.699 (0) Table h2o_cf7dbplugin_st: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_cf7dbplugin_st.table.gz - 40.8 KB)
+0035.929 (0) Table h2o_cf7dbplugin_submits: Total expected rows (approximate): 396461
+0036.088 (0) [Warning] Table h2o_cf7dbplugin_submits has very many rows (396461) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0038.890 (0) Table h2o_cf7dbplugin_submits: binary mysqldump finished (writes: 72) in 2.71 seconds
+0039.724 (0) Table h2o_cf7dbplugin_submits: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_cf7dbplugin_submits.table.gz - 2585.9 KB)
+0039.964 (0) Table h2o_duplicator_packages: Total expected rows (approximate): 2
+0040.035 (0) Table h2o_duplicator_packages: Total rows added: 2 in 0.00 seconds
+0040.154 (0) Table h2o_duplicator_packages: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_duplicator_packages.table.gz - 1.4 KB)
+0040.857 (0) Table h2o_email_log: Total expected rows (approximate): 6791
+0044.541 (0) Table h2o_email_log: Total rows added: 8539 in 3.52 seconds
+0044.718 (0) Table h2o_email_log: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_email_log.table.gz - 1231.4 KB)
+0045.662 (0) Table h2o_gf_addon_feed: Total expected rows (approximate): 4
+0045.862 (0) Table h2o_gf_addon_feed: Total rows added: 4 in 0.01 seconds
+0045.998 (0) Table h2o_gf_addon_feed: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_feed.table.gz - 1.3 KB)
+0046.473 (0) Table h2o_gf_addon_payment_callback: Total expected rows (approximate): 2288
+0047.103 (0) Table h2o_gf_addon_payment_callback: Total rows added: 2288 in 0.44 seconds
+0047.595 (0) Table h2o_gf_addon_payment_callback: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_payment_callback.table.gz - 56.1 KB)
+0048.345 (0) Table h2o_gf_addon_payment_transaction: Total expected rows (approximate): 2278
+0048.917 (0) Table h2o_gf_addon_payment_transaction: Total rows added: 2278 in 0.42 seconds
+0049.085 (0) Table h2o_gf_addon_payment_transaction: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_payment_transaction.table.gz - 57.9 KB)
+0049.549 (0) Table h2o_layerslider: Total expected rows (approximate): 9
+0049.710 (0) Table h2o_layerslider: Total rows added: 9 in 0.01 seconds
+0049.859 (0) Table h2o_layerslider: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_layerslider.table.gz - 4.8 KB)
+0050.323 (0) Table h2o_rg_form: Total expected rows (approximate): 22
+0050.421 (0) Table h2o_rg_form: Total rows added: 23 in 0.00 seconds
+0050.489 (0) Table h2o_rg_form: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form.table.gz - 0.8 KB)
+0050.780 (0) Table h2o_rg_form_meta: Total expected rows (approximate): 17
+0051.317 (0) Table h2o_rg_form_meta: Total rows added: 23 in 0.03 seconds
+0051.464 (0) Table h2o_rg_form_meta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form_meta.table.gz - 26 KB)
+0051.937 (0) Table h2o_rg_form_view: Total expected rows (approximate): 8946
+0052.097 (0) PHP event: code E_WARNING: popen(cd '/home/democo/public_html/subdomains/h2o/wp-content/updraft'; /usr/bin/mysqldump  --defaults-file=b34c40cb964847cb5f9b6c52c308ce62.tmp  --max_allowed_packet=1M --quote-names --add-drop-table --skip-comments --skip-set-charset --allow-keywords --dump-date --extended-insert --user='democo_db' --host='localhost' democo_h2o 'h2o_rg_form_view',r): Cannot allocate memory (line 1685, wp-content/plugins/updraftplus/backup.php)
+0052.250 (0) Binary mysqldump error: bindump popen failed
+0053.716 (0) Table h2o_rg_form_view: Total rows added: 9067 in 1.32 seconds
+0054.339 (0) Table h2o_rg_form_view: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form_view.table.gz - 124.7 KB)
+0054.795 (0) Table h2o_rg_incomplete_submissions: Total expected rows (approximate): 0
+0054.952 (0) Table h2o_rg_incomplete_submissions: Total rows added: 0 in 0.01 seconds
+0055.082 (0) Table h2o_rg_incomplete_submissions: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_incomplete_submissions.table.gz - 0.4 KB)
+0055.525 (0) Table h2o_rg_lead: Total expected rows (approximate): 5348
+0057.803 (0) Table h2o_rg_lead: Total rows added: 5530 in 2.15 seconds
+0057.958 (0) Table h2o_rg_lead: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead.table.gz - 207.3 KB)
+0058.486 (0) Table h2o_rg_lead_detail: Total expected rows (approximate): 80617
+0060.204 (0) PHP event: code E_WARNING: popen(cd '/home/democo/public_html/subdomains/h2o/wp-content/updraft'; /usr/bin/mysqldump  --defaults-file=9b5ee0e60da623067af0bc0e4b4abc78.tmp  --max_allowed_packet=1M --quote-names --add-drop-table --skip-comments --skip-set-charset --allow-keywords --dump-date --extended-insert --user='democo_db' --host='localhost' democo_h2o 'h2o_rg_lead_detail',r): Cannot allocate memory (line 1685, wp-content/plugins/updraftplus/backup.php)
+0060.623 (0) Binary mysqldump error: bindump popen failed
+0066.516 (0) Table h2o_rg_lead_detail: Total rows added: 48000 in 5.74 seconds
+0307.977 (1) Opened log file at time: Mon, 19 Jun 2017 17:22:45 +0000 on http://h2o.2020demo.co.uk
+0308.046 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.3 WP: 4.4.10 PHP: 5.6.30 (cgi-fcgi, Linux vps.2020demo.co.uk 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4000M (used: 167.9M | 223.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0308.390 (1) Free space on disk containing Updraft's temporary directory: 62081.8 MB
+0308.666 (1) Backup run: resumption=1, nonce=f29d5f72aa0f, begun at=1497892657 (309s ago), job type=backup, previous check-in=58.1s
+0308.813 (1) Scheduling a resumption (2) after 300 seconds (1497893266) in case this run gets aborted
+0308.965 (1) Checking if we have a zip executable available
+0309.030 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0309.099 (1) Creation of backups of directories: already finished
+0309.164 (1) Saving backup status to database (elements: 0)
+0309.240 (1) Resuming creation of database dump (WordPress DB)
+0309.332 (1) Table h2o_options: corresponding file already exists; moving on
+0309.415 (1) Table h2o_users: corresponding file already exists; moving on
+0309.506 (1) Table h2o_usermeta: corresponding file already exists; moving on
+0309.590 (1) Table h2o_commentmeta: corresponding file already exists; moving on
+0309.666 (1) Table h2o_comments: corresponding file already exists; moving on
+0309.745 (1) Table h2o_links: corresponding file already exists; moving on
+0309.811 (1) Table h2o_postmeta: corresponding file already exists; moving on
+0309.878 (1) Table h2o_posts: corresponding file already exists; moving on
+0309.942 (1) Table h2o_signups: corresponding file already exists; moving on
+0310.009 (1) Table h2o_term_relationships: corresponding file already exists; moving on
+0310.077 (1) Table h2o_term_taxonomy: corresponding file already exists; moving on
+0310.150 (1) Table h2o_termmeta: corresponding file already exists; moving on
+0310.216 (1) Table h2o_terms: corresponding file already exists; moving on
+0310.283 (1) Table h2o_blc_filters: corresponding file already exists; moving on
+0310.353 (1) Table h2o_blc_instances: corresponding file already exists; moving on
+0310.427 (1) Table h2o_blc_links: corresponding file already exists; moving on
+0310.500 (1) Table h2o_blc_synch: corresponding file already exists; moving on
+0310.576 (1) Table h2o_cf7dbplugin_st: corresponding file already exists; moving on
+0310.652 (1) Table h2o_cf7dbplugin_submits: corresponding file already exists; moving on
+0310.735 (1) Table h2o_duplicator_packages: corresponding file already exists; moving on
+0310.812 (1) Table h2o_email_log: corresponding file already exists; moving on
+0310.888 (1) Table h2o_gf_addon_feed: corresponding file already exists; moving on
+0310.964 (1) Table h2o_gf_addon_payment_callback: corresponding file already exists; moving on
+0311.040 (1) Table h2o_gf_addon_payment_transaction: corresponding file already exists; moving on
+0311.121 (1) Table h2o_layerslider: corresponding file already exists; moving on
+0311.200 (1) Table h2o_rg_form: corresponding file already exists; moving on
+0311.281 (1) Table h2o_rg_form_meta: corresponding file already exists; moving on
+0311.372 (1) Table h2o_rg_form_view: corresponding file already exists; moving on
+0311.464 (1) Table h2o_rg_incomplete_submissions: corresponding file already exists; moving on
+0311.547 (1) Table h2o_rg_lead: corresponding file already exists; moving on
+0311.657 (1) Table h2o_rg_lead_detail: Total expected rows (approximate): 80617
+0312.483 (1) Table h2o_rg_lead_detail: binary mysqldump finished (writes: 37) in 0.73 seconds
+0312.695 (1) Table h2o_rg_lead_detail: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_detail.table.gz - 686.4 KB)
+0313.003 (1) Table h2o_rg_lead_detail_long: Total expected rows (approximate): 0
+0313.084 (1) Table h2o_rg_lead_detail_long: Total rows added: 0 in 0.01 seconds
+0313.162 (1) Table h2o_rg_lead_detail_long: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_detail_long.table.gz - 0.3 KB)
+0313.411 (1) Table h2o_rg_lead_meta: Total expected rows (approximate): 21309
+0314.216 (1) Table h2o_rg_lead_meta: binary mysqldump finished (writes: 37) in 0.38 seconds
+0314.416 (1) Table h2o_rg_lead_meta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_meta.table.gz - 195 KB)
+0314.644 (1) Table h2o_rg_lead_notes: Total expected rows (approximate): 2286
+0315.024 (1) Table h2o_rg_lead_notes: Total rows added: 2296 in 0.31 seconds
+0315.115 (1) Table h2o_rg_lead_notes: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_notes.table.gz - 62.9 KB)
+0315.364 (1) Table h2o_rg_userregistration: Total expected rows (approximate): 2
+0315.439 (1) Table h2o_rg_userregistration: Total rows added: 2 in 0.00 seconds
+0315.515 (1) Table h2o_rg_userregistration: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_userregistration.table.gz - 0.8 KB)
+0315.754 (1) Table h2o_users-zephi: Total expected rows (approximate): 1171
+0316.052 (1) Table h2o_users-zephi: Total rows added: 1171 in 0.22 seconds
+0316.137 (1) Table h2o_users-zephi: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_users-zephi.table.gz - 39.3 KB)
+0316.365 (1) Table h2o_wfBadLeechers: Total expected rows (approximate): 0
+0316.453 (1) Table h2o_wfBadLeechers: Total rows added: 0 in 0.01 seconds
+0316.544 (1) Table h2o_wfBadLeechers: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBadLeechers.table.gz - 0.3 KB)
+0316.771 (1) Table h2o_wfBlockedIPLog: Total expected rows (approximate): 74
+0316.855 (1) Table h2o_wfBlockedIPLog: Total rows added: 54 in 0.01 seconds
+0316.926 (1) Table h2o_wfBlockedIPLog: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlockedIPLog.table.gz - 0.9 KB)
+0317.161 (1) Table h2o_wfBlocks: Total expected rows (approximate): 0
+0317.241 (1) Table h2o_wfBlocks: Total rows added: 0 in 0.00 seconds
+0317.326 (1) Table h2o_wfBlocks: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlocks.table.gz - 0.4 KB)
+0317.535 (1) Table h2o_wfBlocksAdv: Total expected rows (approximate): 0
+0317.607 (1) Table h2o_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0317.675 (1) Table h2o_wfBlocksAdv: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlocksAdv.table.gz - 0.3 KB)
+0317.882 (1) Table h2o_wfConfig: Total expected rows (approximate): 182
+0317.983 (1) Table h2o_wfConfig: Total rows added: 182 in 0.03 seconds
+0318.052 (1) Table h2o_wfConfig: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfConfig.table.gz - 234.4 KB)
+0318.267 (1) Table h2o_wfCrawlers: Total expected rows (approximate): 1
+0318.344 (1) Table h2o_wfCrawlers: Total rows added: 0 in 0.01 seconds
+0318.411 (1) Table h2o_wfCrawlers: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfCrawlers.table.gz - 0.3 KB)
+0318.628 (1) Table h2o_wfFileMods: Total expected rows (approximate): 5782
+0319.584 (1) Table h2o_wfFileMods: Total rows added: 5944 in 0.89 seconds
+0319.657 (1) Table h2o_wfFileMods: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfFileMods.table.gz - 510.1 KB)
+0319.872 (1) Table h2o_wfHits: Total expected rows (approximate): 1573
+0320.245 (1) Table h2o_wfHits: Total rows added: 1701 in 0.30 seconds
+0320.316 (1) Table h2o_wfHits: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfHits.table.gz - 49.1 KB)
+0320.581 (1) Table h2o_wfHoover: Total expected rows (approximate): 0
+0320.655 (1) Table h2o_wfHoover: Total rows added: 0 in 0.00 seconds
+0320.728 (1) Table h2o_wfHoover: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfHoover.table.gz - 0.3 KB)
+0320.979 (1) Table h2o_wfIssues: Total expected rows (approximate): 11
+0321.056 (1) Table h2o_wfIssues: Total rows added: 11 in 0.00 seconds
+0321.130 (1) Table h2o_wfIssues: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfIssues.table.gz - 3.8 KB)
+0321.376 (1) Table h2o_wfKnownFileList: Total expected rows (approximate): 5944
+0321.755 (1) Table h2o_wfKnownFileList: Total rows added: 5944 in 0.31 seconds
+0321.842 (1) Table h2o_wfKnownFileList: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfKnownFileList.table.gz - 58.9 KB)
+0322.076 (1) Table h2o_wfLeechers: Total expected rows (approximate): 18
+0322.159 (1) Table h2o_wfLeechers: Total rows added: 20 in 0.00 seconds
+0322.242 (1) Table h2o_wfLeechers: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLeechers.table.gz - 0.4 KB)
+0322.464 (1) Table h2o_wfLockedOut: Total expected rows (approximate): 0
+0322.537 (1) Table h2o_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0322.632 (1) Table h2o_wfLockedOut: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLockedOut.table.gz - 0.3 KB)
+0322.866 (1) Table h2o_wfLocs: Total expected rows (approximate): 0
+0322.941 (1) Table h2o_wfLocs: Total rows added: 0 in 0.01 seconds
+0323.009 (1) Table h2o_wfLocs: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLocs.table.gz - 0.4 KB)
+0323.265 (1) Table h2o_wfLogins: Total expected rows (approximate): 958
+0323.467 (1) Table h2o_wfLogins: Total rows added: 981 in 0.13 seconds
+0323.541 (1) Table h2o_wfLogins: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLogins.table.gz - 28 KB)
+0323.750 (1) Table h2o_wfNet404s: Total expected rows (approximate): 0
+0323.823 (1) Table h2o_wfNet404s: Total rows added: 0 in 0.00 seconds
+0323.895 (1) Table h2o_wfNet404s: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfNet404s.table.gz - 0.3 KB)
+0324.104 (1) Table h2o_wfNotifications: Total expected rows (approximate): 17
+0324.185 (1) Table h2o_wfNotifications: Total rows added: 17 in 0.00 seconds
+0324.258 (1) Table h2o_wfNotifications: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfNotifications.table.gz - 2.9 KB)
+0324.498 (1) Table h2o_wfPendingIssues: Total expected rows (approximate): 0
+0324.575 (1) Table h2o_wfPendingIssues: Total rows added: 1 in 0.00 seconds
+0324.651 (1) Table h2o_wfPendingIssues: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfPendingIssues.table.gz - 0.6 KB)
+0324.899 (1) Table h2o_wfReverseCache: Total expected rows (approximate): 0
+0324.976 (1) Table h2o_wfReverseCache: Total rows added: 0 in 0.01 seconds
+0325.050 (1) Table h2o_wfReverseCache: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfReverseCache.table.gz - 0.3 KB)
+0325.290 (1) Table h2o_wfSNIPCache: Total expected rows (approximate): 0
+0325.371 (1) Table h2o_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0325.448 (1) Table h2o_wfSNIPCache: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfSNIPCache.table.gz - 0.4 KB)
+0325.705 (1) Table h2o_wfScanners: Total expected rows (approximate): 2
+0325.787 (1) Table h2o_wfScanners: Total rows added: 2 in 0.01 seconds
+0325.864 (1) Table h2o_wfScanners: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfScanners.table.gz - 0.3 KB)
+0326.104 (1) Table h2o_wfStatus: Total expected rows (approximate): 959
+0326.308 (1) Table h2o_wfStatus: Total rows added: 960 in 0.09 seconds
+0326.380 (1) Table h2o_wfStatus: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfStatus.table.gz - 17.1 KB)
+0326.633 (1) Table h2o_wfThrottleLog: Total expected rows (approximate): 0
+0326.757 (1) Table h2o_wfThrottleLog: Total rows added: 0 in 0.05 seconds
+0326.858 (1) Table h2o_wfThrottleLog: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfThrottleLog.table.gz - 0.3 KB)
+0327.086 (1) Table h2o_wfVulnScanners: Total expected rows (approximate): 0
+0327.174 (1) Table h2o_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0327.260 (1) Table h2o_wfVulnScanners: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfVulnScanners.table.gz - 0.3 KB)
+0327.524 (1) Table h2o_woocommerce_api_keys: Total expected rows (approximate): 0
+0327.600 (1) Table h2o_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0327.674 (1) Table h2o_woocommerce_api_keys: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_api_keys.table.gz - 0.4 KB)
+0327.905 (1) Table h2o_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0327.979 (1) Table h2o_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0328.050 (1) Table h2o_woocommerce_attribute_taxonomies: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0328.279 (1) Table h2o_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0328.356 (1) Table h2o_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0328.921 (1) Table h2o_woocommerce_downloadable_product_permissions: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0329.152 (1) Table h2o_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0329.235 (1) Table h2o_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0329.307 (1) Table h2o_woocommerce_order_itemmeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_order_itemmeta.table.gz - 0.3 KB)
+0329.535 (1) Table h2o_woocommerce_order_items: Total expected rows (approximate): 0
+0329.609 (1) Table h2o_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0329.685 (1) Table h2o_woocommerce_order_items: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_order_items.table.gz - 0.3 KB)
+0329.904 (1) Table h2o_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0329.976 (1) Table h2o_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0330.045 (1) Table h2o_woocommerce_payment_tokenmeta: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_payment_tokenmeta.table.gz - 0.3 KB)
+0330.279 (1) Table h2o_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0330.356 (1) Table h2o_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0330.429 (1) Table h2o_woocommerce_payment_tokens: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_payment_tokens.table.gz - 0.3 KB)
+0330.652 (1) Table h2o_woocommerce_sessions: Total expected rows (approximate): 1
+0330.741 (1) Table h2o_woocommerce_sessions: Total rows added: 1 in 0.01 seconds
+0330.836 (1) Table h2o_woocommerce_sessions: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_sessions.table.gz - 0.9 KB)
+0331.051 (1) Table h2o_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0331.123 (1) Table h2o_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0331.194 (1) Table h2o_woocommerce_shipping_zone_locations: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zone_locations.table.gz - 0.3 KB)
+0331.436 (1) Table h2o_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0331.510 (1) Table h2o_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0331.585 (1) Table h2o_woocommerce_shipping_zone_methods: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zone_methods.table.gz - 0.3 KB)
+0331.823 (1) Table h2o_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0331.896 (1) Table h2o_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0331.969 (1) Table h2o_woocommerce_shipping_zones: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0332.186 (1) Table h2o_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0332.258 (1) Table h2o_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0332.330 (1) Table h2o_woocommerce_tax_rate_locations: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0332.547 (1) Table h2o_woocommerce_tax_rates: Total expected rows (approximate): 1
+0332.622 (1) Table h2o_woocommerce_tax_rates: Total rows added: 1 in 0.00 seconds
+0332.704 (1) Table h2o_woocommerce_tax_rates: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_tax_rates.table.gz - 0.4 KB)
+0332.948 (1) Table h2o_xyz_ips_short_code: Total expected rows (approximate): 5
+0333.027 (1) Table h2o_xyz_ips_short_code: Total rows added: 5 in 0.00 seconds
+0333.098 (1) Table h2o_xyz_ips_short_code: finishing file (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_xyz_ips_short_code.table.gz - 1.9 KB)
+0333.245 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_options.table.gz (1/74): adding to final database dump
+0343.062 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_users.table.gz (2/74): adding to final database dump
+0343.190 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_usermeta.table.gz (3/74): adding to final database dump
+0343.389 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_commentmeta.table.gz (4/74): adding to final database dump
+0343.896 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_comments.table.gz (5/74): adding to final database dump
+0343.967 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_links.table.gz (6/74): adding to final database dump
+0344.037 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_postmeta.table.gz (7/74): adding to final database dump
+0344.228 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_posts.table.gz (8/74): adding to final database dump
+0344.380 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_signups.table.gz (9/74): adding to final database dump
+0344.463 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_term_relationships.table.gz (10/74): adding to final database dump
+0344.543 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_term_taxonomy.table.gz (11/74): adding to final database dump
+0344.627 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_termmeta.table.gz (12/74): adding to final database dump
+0344.712 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_terms.table.gz (13/74): adding to final database dump
+0344.802 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_filters.table.gz (14/74): adding to final database dump
+0344.874 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_instances.table.gz (15/74): adding to final database dump
+0344.947 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_links.table.gz (16/74): adding to final database dump
+0345.019 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_blc_synch.table.gz (17/74): adding to final database dump
+0345.088 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_cf7dbplugin_st.table.gz (18/74): adding to final database dump
+0345.237 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_cf7dbplugin_submits.table.gz (19/74): adding to final database dump
+0346.097 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_duplicator_packages.table.gz (20/74): adding to final database dump
+0346.177 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_email_log.table.gz (21/74): adding to final database dump
+0346.875 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_feed.table.gz (22/74): adding to final database dump
+0347.010 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_payment_callback.table.gz (23/74): adding to final database dump
+0347.136 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_gf_addon_payment_transaction.table.gz (24/74): adding to final database dump
+0347.270 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_layerslider.table.gz (25/74): adding to final database dump
+0347.359 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form.table.gz (26/74): adding to final database dump
+0347.442 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form_meta.table.gz (27/74): adding to final database dump
+0347.521 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_form_view.table.gz (28/74): adding to final database dump
+0347.757 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_incomplete_submissions.table.gz (29/74): adding to final database dump
+0347.826 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead.table.gz (30/74): adding to final database dump
+0348.019 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_detail.table.gz (31/74): adding to final database dump
+0348.292 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_detail_long.table.gz (32/74): adding to final database dump
+0348.369 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_meta.table.gz (33/74): adding to final database dump
+0348.521 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_lead_notes.table.gz (34/74): adding to final database dump
+0348.642 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_rg_userregistration.table.gz (35/74): adding to final database dump
+0348.722 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_users-zephi.table.gz (36/74): adding to final database dump
+0348.835 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBadLeechers.table.gz (37/74): adding to final database dump
+0348.924 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlockedIPLog.table.gz (38/74): adding to final database dump
+0349.003 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlocks.table.gz (39/74): adding to final database dump
+0349.089 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfBlocksAdv.table.gz (40/74): adding to final database dump
+0349.172 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfConfig.table.gz (41/74): adding to final database dump
+0349.256 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfCrawlers.table.gz (42/74): adding to final database dump
+0349.328 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfFileMods.table.gz (43/74): adding to final database dump
+0349.545 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfHits.table.gz (44/74): adding to final database dump
+0349.650 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfHoover.table.gz (45/74): adding to final database dump
+0349.720 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfIssues.table.gz (46/74): adding to final database dump
+0349.791 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfKnownFileList.table.gz (47/74): adding to final database dump
+0349.955 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLeechers.table.gz (48/74): adding to final database dump
+0350.027 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLockedOut.table.gz (49/74): adding to final database dump
+0350.100 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLocs.table.gz (50/74): adding to final database dump
+0350.172 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfLogins.table.gz (51/74): adding to final database dump
+0350.270 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfNet404s.table.gz (52/74): adding to final database dump
+0350.341 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfNotifications.table.gz (53/74): adding to final database dump
+0350.414 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfPendingIssues.table.gz (54/74): adding to final database dump
+0350.483 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfReverseCache.table.gz (55/74): adding to final database dump
+0350.554 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfSNIPCache.table.gz (56/74): adding to final database dump
+0350.633 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfScanners.table.gz (57/74): adding to final database dump
+0350.708 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfStatus.table.gz (58/74): adding to final database dump
+0350.798 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfThrottleLog.table.gz (59/74): adding to final database dump
+0350.872 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_wfVulnScanners.table.gz (60/74): adding to final database dump
+0350.945 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_api_keys.table.gz (61/74): adding to final database dump
+0351.020 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_attribute_taxonomies.table.gz (62/74): adding to final database dump
+0351.138 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_downloadable_product_permissions.table.gz (63/74): adding to final database dump
+0351.223 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_order_itemmeta.table.gz (64/74): adding to final database dump
+0351.302 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_order_items.table.gz (65/74): adding to final database dump
+0351.390 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_payment_tokenmeta.table.gz (66/74): adding to final database dump
+0351.460 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_payment_tokens.table.gz (67/74): adding to final database dump
+0351.544 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_sessions.table.gz (68/74): adding to final database dump
+0351.626 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zone_locations.table.gz (69/74): adding to final database dump
+0351.698 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zone_methods.table.gz (70/74): adding to final database dump
+0351.767 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_shipping_zones.table.gz (71/74): adding to final database dump
+0351.839 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_tax_rate_locations.table.gz (72/74): adding to final database dump
+0351.912 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_woocommerce_tax_rates.table.gz (73/74): adding to final database dump
+0351.988 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db-table-h2o_xyz_ips_short_code.table.gz (74/74): adding to final database dump
+0352.066 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db.gz: finished writing out complete database file (32528 KB)
+0353.218 (1) Total database tables backed up: 74 (backup_2017-06-19-1817_H2O_f29d5f72aa0f-db.gz, size: 33321352, sha256)
+0353.505 (1) backup_2017-06-19-1817_H2O_f29d5f72aa0f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0353.578 (1) Saving backup history. Total backup size: 31.8 MB
+0353.738 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0353.982 (1) Cloud backup selection (1/1):  (last)
+0354.055 (1) No remote despatch: user chose no remote backup service
+0354.211 (1) Recording as successfully uploaded: backup_2017-06-19-1817_H2O_f29d5f72aa0f-db.gz (344e1a0b1a02f90086184470cb61dd49)
+0354.579 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0354.654 (1) Number of backup sets in history: 3; groups (db): 1
+0354.726 (1) Examining (for databases) backup set with group_id=0, nonce=f29d5f72aa0f, datestamp=1497892657 (Jun 19 2017 17:17:37)
+0354.797 (1) This backup set is the backup set just made, so will not be deleted.
+0354.869 (1) Examining (for databases) backup set with group_id=0, nonce=7ea8f7cc8ea9, datestamp=1497887925 (Jun 19 2017 15:58:45)
+0354.939 (1) 1497887925: db: this set includes a database (backup_2017-06-19-1658_H2O_7ea8f7cc8ea9-db.gz); db count is now 1
+0355.011 (1) 1497887925: db: over retain limit (1); will delete this database
+0355.095 (1) Delete file: backup_2017-06-19-1658_H2O_7ea8f7cc8ea9-db.gz, service=none
+0355.177 (1) Deleting local copy (backup_2017-06-19-1658_H2O_7ea8f7cc8ea9-db.gz)
+0355.339 (1) This backup set is now empty; will remove from history
+0355.411 (1) Deleting log file (log.7ea8f7cc8ea9.txt)
+0355.489 (1) Examining (for databases) backup set with group_id=0, nonce=2f015425ec90, datestamp=1496934540 (Jun 08 2017 15:09:00)
+0355.571 (1) Number of backup sets in history: 2; groups (files): 1
+0355.650 (1) Examining (for files) backup set with nonce=f29d5f72aa0f, datestamp=1497892657 (Jun 19 2017 17:17:37)
+0355.733 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0355.814 (1) Examining (for files) backup set with nonce=2f015425ec90, datestamp=1496934540 (Jun 08 2017 15:09:00)
+0355.898 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0355.987 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0356.243 (1) Resume backup (f29d5f72aa0f, 1): finish run
+0356.410 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0356.726 (1) No email will/can be sent - the user has not configured an email address.
+0356.802 (1) The backup apparently succeeded and is now complete

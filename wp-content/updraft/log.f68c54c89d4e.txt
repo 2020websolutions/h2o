@@ -1,0 +1,22 @@
+0000.164 () Opened log file at time: Fri, 09 Jun 2017 08:35:34 +0000 on http://h2o.2020demo.co.uk
+0000.165 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.3 WP: 4.4.10 PHP: 5.6.30 (cgi-fcgi, Linux vps.2020demo.co.uk 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 3000M (used: 211.6M | 237M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.433 () Free space on disk containing Updraft's temporary directory: 64602.7 MB
+0000.657 () Restore job started. Entities to restore: others. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.937 () Entity: others
+0000.937 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0000.938 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, 398.1 Mb)
+0005.195 () Cleaning up rubbish...
+0005.287 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others4.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0005.287 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others4.zip, 660.2 Mb)
+0022.385 () Cleaning up rubbish...
+0022.703 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others5.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0022.731 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others5.zip, 57.7 Mb)
+0024.371 () Cleaning up rubbish...
+0024.464 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0024.464 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others.zip, 620.9 Mb)
+0036.459 () Cleaning up rubbish...
+0036.572 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others3.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0036.572 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others3.zip, 425.9 Mb)
+0045.245 () Cleaning up rubbish...
+0051.840 () Restore successful!
+0051.840 () Restore successful

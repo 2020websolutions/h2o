@@ -1,0 +1,7 @@
+0000.155 () Opened log file at time: Fri, 09 Jun 2017 07:36:49 +0000 on http://h2o.2020demo.co.uk
+0000.155 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.3 WP: 4.4.10 PHP: 5.6.30 (cgi-fcgi, Linux vps.2020demo.co.uk 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 211.5M | 237.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.042 () Free space on disk containing Updraft's temporary directory: 64590.3 MB
+0001.261 () Restore job started. Entities to restore: others. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0001.537 () Entity: others
+0001.538 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0001.538 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, 398.1 Mb)

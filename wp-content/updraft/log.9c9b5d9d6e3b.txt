@@ -1,0 +1,137 @@
+0000.003 () Opened log file at time: Thu, 08 Jun 2017 17:14:34 +0000 on http://h2o.2020demo.co.uk
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.4.10 PHP: 5.6.30 (cgi-fcgi, Linux vps.2020demo.co.uk 2.6.32-642.15.1.el6.x86_64 #1 SMP Fri Feb 24 14:31:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.1M | 30.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.167 () Free space on disk containing Updraft's temporary directory: 65695.2 MB
+0000.170 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.203 () Entity: db
+0000.203 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-db.gz, type=db, info=a:0:{}, last_one=)
+0000.203 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-db.gz, 31.7 Mb)
+0000.283 () Database successfully unpacked
+0000.284 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.284 () Using direct MySQL access; value of use_mysqli is: 1
+0000.289 () Max packet size: 256 MB
+0000.289 () Entering maintenance mode
+0000.289 () Enabling Maintenance mode&#8230;
+0000.292 () Backup of: http://h20carvaleting.com
+0000.323 () Content URL: http://h20carvaleting.com/wp-content
+0000.323 () Uploads URL: http://h20carvaleting.com/wp-content/uploads
+0000.324 () Old table prefix: h2o_
+0000.325 () Site information: multisite=0
+0000.332 () New table prefix: h2o_
+0000.337 () Processing table (MyISAM): h2o_options
+0019.620 () Database queries processed: 50 in 19.33 seconds
+0022.077 () Database queries processed: 100 in 21.79 seconds
+0024.647 () Database queries processed: 150 in 24.36 seconds
+0027.307 () Database queries processed: 200 in 27.02 seconds
+0030.319 () Database queries processed: 250 in 30.03 seconds
+0044.778 () Database queries processed: 500 in 44.49 seconds
+0054.842 () Restoring prior UD configuration (table: h2o_options; keys: 89)
+0066.126 () Processing table (MyISAM): h2o_users
+0066.841 () Processing table (MyISAM): h2o_usermeta
+0069.878 () Processing table (MyISAM): h2o_commentmeta
+0069.895 () Processing table (MyISAM): h2o_comments
+0069.908 () Processing table (MyISAM): h2o_links
+0069.918 () Processing table (MyISAM): h2o_postmeta
+0072.981 () Processing table (MyISAM): h2o_posts
+0073.554 () Processing table (InnoDB): h2o_signups
+0073.587 () Processing table (MyISAM): h2o_term_relationships
+0073.629 () Processing table (MyISAM): h2o_term_taxonomy
+0073.652 () Processing table (InnoDB): h2o_termmeta
+0073.694 () Processing table (MyISAM): h2o_terms
+0073.726 () Processing table (InnoDB): h2o_blc_filters
+0073.751 () Processing table (InnoDB): h2o_blc_instances
+0073.806 () Processing table (InnoDB): h2o_blc_links
+0073.864 () Processing table (InnoDB): h2o_blc_synch
+0073.908 () Database queries processed: 750 in 73.62 seconds
+0073.911 () Processing table (InnoDB): h2o_cf7dbplugin_st
+0076.160 () Processing table (InnoDB): h2o_cf7dbplugin_submits
+0102.328 () Processing table (InnoDB): h2o_duplicator_packages
+0102.472 () Processing table (InnoDB): h2o_email_log
+0110.838 () Processing table (InnoDB): h2o_gf_addon_feed
+0110.886 () Processing table (InnoDB): h2o_gf_addon_payment_callback
+0111.937 () Processing table (InnoDB): h2o_gf_addon_payment_transaction
+0112.978 () Processing table (MyISAM): h2o_layerslider
+0112.998 () Processing table (InnoDB): h2o_rg_form
+0113.021 () Processing table (InnoDB): h2o_rg_form_meta
+0113.269 () Processing table (InnoDB): h2o_rg_form_view
+0114.051 () Processing table (InnoDB): h2o_rg_incomplete_submissions
+0114.131 () Processing table (InnoDB): h2o_rg_lead
+0116.753 () Processing table (InnoDB): h2o_rg_lead_detail
+0120.893 () Processing table (InnoDB): h2o_rg_lead_detail_long
+0120.916 () Processing table (InnoDB): h2o_rg_lead_meta
+0122.983 () Processing table (InnoDB): h2o_rg_lead_notes
+0124.054 () Processing table (InnoDB): h2o_rg_userregistration
+0124.074 () Processing table (MyISAM): h2o_users-zephi
+0124.500 () Processing table (InnoDB): h2o_wfBadLeechers
+0124.521 () Processing table (InnoDB): h2o_wfBlockedIPLog
+0124.562 () Processing table (InnoDB): h2o_wfBlocks
+0124.594 () Processing table (InnoDB): h2o_wfBlocksAdv
+0124.608 () Processing table (InnoDB): h2o_wfConfig
+0124.627 () Database queries processed: 1000 in 124.34 seconds
+0124.729 () Processing table (InnoDB): h2o_wfCrawlers
+0124.786 () Processing table (InnoDB): h2o_wfFileMods
+0127.081 () Processing table (InnoDB): h2o_wfHits
+0128.441 () Processing table (InnoDB): h2o_wfHoover
+0130.495 () Processing table (InnoDB): h2o_wfIssues
+0130.524 () Processing table (MyISAM): h2o_wfKnownFileList
+0132.146 () Processing table (InnoDB): h2o_wfLeechers
+0132.569 () Processing table (InnoDB): h2o_wfLockedOut
+0132.605 () Processing table (InnoDB): h2o_wfLocs
+0132.634 () Processing table (InnoDB): h2o_wfLogins
+0133.096 () Processing table (InnoDB): h2o_wfNet404s
+0133.122 () Processing table (MyISAM): h2o_wfNotifications
+0133.139 () Processing table (InnoDB): h2o_wfPendingIssues
+0133.151 () Processing table (InnoDB): h2o_wfReverseCache
+0133.173 () Processing table (InnoDB): h2o_wfSNIPCache
+0133.199 () Processing table (InnoDB): h2o_wfScanners
+0133.416 () Processing table (InnoDB): h2o_wfStatus
+0133.801 () Processing table (InnoDB): h2o_wfThrottleLog
+0133.824 () Processing table (InnoDB): h2o_wfVulnScanners
+0133.882 () Processing table (MyISAM): h2o_woocommerce_api_keys
+0133.893 () Processing table (MyISAM): h2o_woocommerce_attribute_taxonomies
+0133.905 () Processing table (MyISAM): h2o_woocommerce_downloadable_product_permissions
+0133.919 () Processing table (MyISAM): h2o_woocommerce_order_itemmeta
+0133.929 () Processing table (MyISAM): h2o_woocommerce_order_items
+0133.938 () Processing table (MyISAM): h2o_woocommerce_payment_tokenmeta
+0133.948 () Processing table (MyISAM): h2o_woocommerce_payment_tokens
+0133.957 () Processing table (MyISAM): h2o_woocommerce_sessions
+0133.968 () Processing table (MyISAM): h2o_woocommerce_shipping_zone_locations
+0133.981 () Processing table (MyISAM): h2o_woocommerce_shipping_zone_methods
+0133.990 () Processing table (MyISAM): h2o_woocommerce_shipping_zones
+0134.000 () Processing table (MyISAM): h2o_woocommerce_tax_rate_locations
+0134.012 () Processing table (MyISAM): h2o_woocommerce_tax_rates
+0134.023 () Processing table (InnoDB): h2o_xyz_ips_short_code
+0134.035 () Unlocking database and leaving maintenance mode
+0134.035 () Disabling Maintenance mode&#8230;
+0134.036 () Finished: lines processed: 1100 in 133.75 seconds
+0134.045 () Cleaning up rubbish...
+0136.422 () Entity: plugins
+0136.422 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:58:"/home/democo/public_html/subdomains/h2o/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0136.422 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-plugins.zip, 46.5 Mb)
+0138.758 () Moving old data: filesystem method / updraft_dir is potentially possible
+0138.758 () Moving old data: can potentially use wp_filesystem method / -old
+0138.758 () Moving old data out of the way...
+0139.062 () Top-level entities being moved: index.php, hello.php, akismet, updraftplus
+0139.071 () Moving unpacked backup into place...
+0140.351 () Top-level entities being moved: insert-php-code-snippet, open-external-links-in-a-new-window, email-log, gravityforms, js_composer.zip, gravityformslogging, gravity-forms-css-ready-selector, easy-wp-smtp, oauth-twitter-feed-for-developers, Ultimate_VC_Addons, wp-rollback, duplicator, wordfence, contact-form-7, custom-login, gravityformsuserregistration, contact-form-7-paypal-extension, worker, advanced-custom-fields, server-ip-memory-usage, contact-form-7-to-database-extension, gravityformspaypal, js_composer_theme, all-in-one-seo-pack, menu-icons, akismet, LayerSlider, Ultimate_VC_Addons.zip, updraftplus, creare-eu-cookie-law-banner, broken-link-checker, gf-custom-styles-master, disable-gravity-forms-fields
+0140.379 () Cleaning up rubbish...
+0140.525 () Entity: themes
+0140.525 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-themes.zip, type=themes, info=a:2:{s:4:"path";s:57:"/home/democo/public_html/subdomains/h2o/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0140.526 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-themes.zip, 16.5 Mb)
+0141.807 () Moving old data: filesystem method / updraft_dir is potentially possible
+0141.807 () Moving old data: can potentially use wp_filesystem method / -old
+0141.807 () Moving old data out of the way...
+0141.850 () Top-level entities being moved: index.php, twentyfourteen, twentyfifteen, twentysixteen
+0141.851 () Moving unpacked backup into place...
+0142.066 () Top-level entities being moved: jupiter-child, jupiter, index.php
+0142.078 () Cleaning up rubbish...
+0142.211 () Entity: uploads
+0142.211 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:58:"/home/democo/public_html/subdomains/h2o/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0142.211 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-uploads.zip, 340 Mb)
+0148.818 () Moving old data: filesystem method / updraft_dir is potentially possible
+0148.818 () Moving old data: can potentially use wp_filesystem method / -old
+0148.818 () Moving old data out of the way...
+0148.839 () Moving unpacked backup into place...
+0149.204 () Cleaning up rubbish...
+0149.343 () Entity: others
+0149.343 () restore_backup(backup_file=backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/democo/public_html/subdomains/h2o/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0149.343 () Unpacking backup... (backup_2017-06-08-1609_H2O_2f015425ec90-others2.zip, 398.1 Mb)
